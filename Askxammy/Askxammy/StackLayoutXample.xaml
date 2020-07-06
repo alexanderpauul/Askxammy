@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Askxammy.StackLayoutXample">
+    <!--<ContentPage.Content>-->
+    <StackLayout>
+        <StackLayout Orientation="Horizontal" 
+                     HorizontalOptions="Fill"
+                     Padding="10, 10, 10, 0" 
+                     Spacing="5" >
+
+            <Button  BackgroundColor="#689cd2" HorizontalOptions="FillAndExpand"></Button>
+            <Button  BackgroundColor="#b6d7f3" HorizontalOptions="FillAndExpand"></Button>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" 
+                     HorizontalOptions="Fill"                    
+                     Padding="10, 0, 10, 0" 
+                     Spacing="5" 
+                     HeightRequest="100">
+
+            <Button  BackgroundColor="#b6d7f3" HorizontalOptions="FillAndExpand"></Button>
+            <Button  BackgroundColor="#689cd2" HorizontalOptions="FillAndExpand"></Button>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="FillAndExpand" 
+                      Padding="10, 0, 10, 0">
+
+            <Button  BackgroundColor="#a9dcfb" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+        </StackLayout>
+
+    </StackLayout>
+    <!--</ContentPage.Content>-->
+</ContentPage>
