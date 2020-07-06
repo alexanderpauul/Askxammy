@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="Askxammy.StackLayoutXample">
     <!--<ContentPage.Content>-->
+   
     <StackLayout>
         <StackLayout Orientation="Horizontal" 
                      HorizontalOptions="Fill"
@@ -31,7 +32,6 @@
 
             <Button  BackgroundColor="#a9dcfb" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
         </StackLayout>
-
     </StackLayout>
     <!--</ContentPage.Content>-->
 </ContentPage>
